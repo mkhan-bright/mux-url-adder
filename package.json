@@ -1,0 +1,16 @@
+{
+  "name": "mux-url-adder",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack --mode development --watch"
+  },
+  "dependencies": {
+    "datocms-plugin-sdk": "^0.3.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0"
+  }
+}

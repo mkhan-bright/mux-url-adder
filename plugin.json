@@ -1,0 +1,18 @@
+{
+  "name": "Mux URL Adder",
+  "id": "mux-url-adder",
+  "entryPoint": "./dist/main.js",
+  "fieldTypes": ["media"],
+  "parameters": [
+    {
+      "id": "mux_token",
+      "label": "Mux Access Token",
+      "type": "string"
+    },
+    {
+      "id": "mux_secret",
+      "label": "Mux Secret Key",
+      "type": "string"
+    }
+  ]
+}
